@@ -2,6 +2,7 @@
 百度及亚马逊文本转语音
 
 ```objc
+//百度语音TTS
 //设置授权参数
 [[Baidu_TTS shared] setAuthKey:@""];
 [[Baidu_TTS shared] setAuthSecret:@""];
@@ -17,7 +18,7 @@
 }];
 
 
-//亚马逊TTS
+//亚马逊TTS 需要使用到#import <AWSPolly/AWSPolly.h>框架 可用使用cocoapods引用 pod 'AWSPolly', '~> 2.8.0'
 
 //设置授权ID
 [[AmazonPolly shared] setCognitoIdentityPoolIdWithId:@""];
