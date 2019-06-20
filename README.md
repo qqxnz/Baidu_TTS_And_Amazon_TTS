@@ -1,7 +1,7 @@
 # Baidu_TTS_And_Amazon_TTS
 百度及亚马逊文本转语音
 
-```
+```objc
 //设置授权参数
 [[Baidu_TTS shared] setAuthKey:@""];
 [[Baidu_TTS shared] setAuthSecret:@""];
